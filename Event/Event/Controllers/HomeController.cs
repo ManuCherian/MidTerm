@@ -13,9 +13,9 @@ namespace Event.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult MyEvents()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Events";
 
             return View();
         }
