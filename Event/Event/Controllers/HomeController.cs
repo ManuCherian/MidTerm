@@ -10,6 +10,8 @@ namespace Event.Controllers
 {
     public class HomeController : Controller
     {
+        private DbModel db = new DbModel();
+
         public ActionResult Index()
         {
             return View();
@@ -30,25 +32,11 @@ namespace Event.Controllers
         }
         public ActionResult Events()
         {
-            /*
-            var events = new List<string>();
             
-            for (int i = 1; i <=10; i++)
-            {
-                events.Add("Event" + i.ToString());
-            }
-            ViewBag.Events = events;
-            */
-            var myEvents = new List<MyEvent>();
-            for (int i = 1; i <= 10; i++)
-            {
-                MyEvent events = new MyEvent();
-                events.Name = "Event" + i.ToString();
-                myEvents.Add(events);
-
-
-            }
             
+
+        var myEvents = db.MyEvents.ToList();
+            //retrieving the entire list from the Events database
             return View(myEvents);
         }
 

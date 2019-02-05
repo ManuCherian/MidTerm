@@ -1,0 +1,3 @@
+server name : mynewevents
+admin login : assign1
+password :Winter2019

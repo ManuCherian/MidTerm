@@ -1,16 +1,16 @@
 ﻿@model IEnumerable<Event.Models.MyEvent>
 
 @{
-    ViewBag.Title = "Events";
+    ViewBag.Title = "My Events";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>@ViewBag.Title.</h2>
 
 <ul>
-    @foreach (var p in Model)
+    @foreach (var e in Model)
     {
-        <li>@p.Name</li>
+    <li>@Html.ActionLink(e.Event_Title, "ViewEvent", "Home", new { MyEventName = e.Event_Title}, null)</li>
     }
 
 
