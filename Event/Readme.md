@@ -6,4 +6,4 @@ This is an MVC 5, SSQL SERVER, Entity Framework Assignment. </p>
 </p>
 <p>Git Hub link available on <a href = "https://github.com/ManuCherian/Events">https://github.com/ManuCherian/Events</a></p>
 
-<p>Git Hub link available on <a href = "https://my--events.azurewebsites.net">https://my--events.azurewebsites.net</a></p>
+<p>Azure link available on <a href = "https://my--events.azurewebsites.net">https://my--events.azurewebsites.net</a></p>
