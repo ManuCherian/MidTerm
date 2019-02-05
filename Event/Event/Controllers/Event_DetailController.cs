@@ -12,6 +12,7 @@ namespace Event.Controllers
 {
     public class Event_DetailController : Controller
     {
+        //initializing the DbModel
         private DbModel db = new DbModel();
 
         // GET: Event_Detail
