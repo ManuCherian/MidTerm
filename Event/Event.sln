@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{C79F248A-6F47-445F-8070-FAA1262A50E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{97C3A1D0-24DC-45BB-BD36-52C8EC3A3C83}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C79F248A-6F47-445F-8070-FAA1262A50E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79F248A-6F47-445F-8070-FAA1262A50E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79F248A-6F47-445F-8070-FAA1262A50E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79F248A-6F47-445F-8070-FAA1262A50E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C938B08-5DBD-4883-B647-C8E532D4ACDB}
+	EndGlobalSection
+EndGlobal
